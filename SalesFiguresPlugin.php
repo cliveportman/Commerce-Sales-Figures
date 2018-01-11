@@ -5,17 +5,18 @@ namespace Craft;
  * SalesFigures plugin
  *
  * @author    Clive Portman <clive@cliveportman.co.uk>
- * @copyright Copyright (c) 2016, Clive Portman.
+ * @copyright Copyright (c) forever, Clive Portman.
  * @license   MIT
  * @version   0.1
  */
 
-class ProductsCalendarPlugin extends BasePlugin
+class SalesFiguresPlugin extends BasePlugin
 {
     function getName()
     {
         return Craft::t('Sales Figures');
     }
+
     function getDescription()
     {
         return Craft::t('Returns total sales of purchasable within a date range.');
